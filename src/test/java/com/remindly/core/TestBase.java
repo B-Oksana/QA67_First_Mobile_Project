@@ -12,9 +12,10 @@ public class TestBase {
     @BeforeMethod
     public void setUp() throws MalformedURLException {
         app.init();
+        app.getMainScreenHelper().confirm();
     }
 
-    @AfterMethod
+    @AfterMethod (enabled = false)
     public void tearDown() {
         app.stop();
     }
