@@ -26,4 +26,11 @@ public class MainScreenHelper extends BaseHelper {
         return isTextPresent(By.id("recycle_title"));
     }
 
+    public void tapMoreOptions() {
+        tap(By.xpath("//*[@content-desc=\"More options\"]"));
+    }
+
+    public void tapLicenses() {
+        tap(By.xpath("//*[@resource-id=\"com.blanyal.remindly:id/title\"]"));
+    }
 }

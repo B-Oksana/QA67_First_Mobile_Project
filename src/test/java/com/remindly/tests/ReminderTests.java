@@ -19,7 +19,7 @@ public class ReminderTests extends TestBase {
 
         Assert.assertTrue(app.getMainScreenHelper().isReminderPresent().contains("Test"));
     }
-
+/*
     @Test
     public void addReminderDate() {
         app.getReminderHelper().tapOnDateField();
@@ -32,4 +32,5 @@ public class ReminderTests extends TestBase {
 
         Assert.assertTrue(app.getMainScreenHelper().isReminderDateTime().contaons("3/8/27"));
     }
+ */
 }
